@@ -1,0 +1,10 @@
+openai>=1.0.0
+numpy
+pandas
+python-dotenv
+flask
+flask-cors
+SQLAlchemy
+pgvector
+pg8000
+requests
