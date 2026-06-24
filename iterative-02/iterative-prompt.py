@@ -181,4 +181,8 @@ Technical specifications: ```{fact_sheet_chair}```
 """
 
 response = get_completion(prompt)
+#display(HTML(response)) only renders a visual HTML view inside an IPython environment, 
+# such as Jupyter Notebook, JupyterLab, or an interactive IPython shell.
+# from IPython.display import display, HTML
+# display(HTML(response))
 print("HTML response:", response)
