@@ -21,7 +21,7 @@ The examples focus on writing clearer prompts, structuring model output, using d
 │   └── summarize-prompt.py
 ├── inference-04/
 │   └── inference-prompt.py
-├── tranforma-05/
+├── transform-05/
 │   └── transform-prompt.py
 ├── expanding-06/
 │   └── expand-prompt.py
@@ -80,7 +80,7 @@ python basics-01/basic_prompt_structure_model_incorrect_solution.py
 python iterative-02/iterative-prompt.py
 python summarize-03/summarize-prompt.py
 python inference-04/inference-prompt.py
-python tranforma-05/transform-prompt.py
+python transform-05/transform-prompt.py
 python expanding-06/expand-prompt.py
 python chatbot-07/chatbot-app.py
 ```
@@ -103,7 +103,7 @@ panel serve chatbot-07/orderbot-app.py --show
 - `iterative-02/`: Improve prompts through iteration by changing audience, length, structure, and output format.
 - `summarize-03/`: Summarize reviews and product text with different focus areas.
 - `inference-04/`: Infer sentiment, emotions, product metadata, and topics from text.
-- `tranforma-05/`: Translate, transform tone, convert formats, proofread, and compare edited text.
+- `transform-05/`: Translate, transform tone, convert formats, proofread, and compare edited text.
 - `expanding-06/`: Generate customer-service replies from review sentiment and source details.
 - `chatbot-07/`: Build chat-style interactions and a simple pizza ordering bot with Panel.
 
